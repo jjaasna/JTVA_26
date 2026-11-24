@@ -27,3 +27,4 @@ elif vanus > 65:
 else:
        print("Täna kinno ei minda.")
 
+
