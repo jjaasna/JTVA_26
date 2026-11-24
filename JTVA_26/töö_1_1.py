@@ -54,3 +54,34 @@ kiirus = teepikkus / aeg
 print("Sinu kiirus oli " + str(kiirus) + " km/h")
 
 # 7. harjutus
+
+arv1 = int(input("Sisesta esimene täisarv: "))
+arv2 = int(input("Sisesta teine täisarv: "))
+arv3 = int(input("Sisesta kolmas täisarv: "))
+arv4 = int(input("Sisesta neljas täisarv: "))
+arv5 = int(input("Sisesta viies täisarv: "))
+
+summa = arv1 + arv2 + arv3 + arv4 + arv5
+
+taisosa = summa // 5
+jaak = summa % 5
+
+print("arvude summa on: ", summa)
+print("Arvude aritmeetiline keskmine", taisosa)
+print("jääk on: ", jaak)
+
+# 8. harjutus
+print("@..@")
+print("(----)")
+print("(\\__/)")
+print("^^ "" ^^")
+
+# 9. harjutus
+a = int(input("esimene külg: ")
+b = int(input("teine külg: ")
+c = int(input("kolmas külg:")
+
+P = a + b + c
+
+print("ümbermõõt on: ", P)
+
