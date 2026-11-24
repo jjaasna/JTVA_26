@@ -32,3 +32,25 @@ print(kommid - karv)
 C = float(input("Ringjoone pikkus: "))
 D = round(C / math.pi, 2)
 print (f"puu läbimõõt on: {D}")
+
+# 5. harjutus
+import math
+
+N = float(input("Sisesta maatüki pikkus (N): "))
+M = float(input("Sisesta maatüki laius (M): "))
+
+diagonaal = math.sqrt(N**2 + M**2)
+
+print("Maatüki diagonaali pikkus on: ", diagonaal, "m")
+
+# 6. harjutus
+# Vale rida: kiirus = aeg / teepikkus
+# õige rida: kiirus = teepikkus / aeg
+
+aeg = float(input("Mitu tundi kulus sõiduks? "))
+teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+kiirus = teepikkus / aeg
+
+print("Sinu kiirus oli " + str(kiirus) + " km/h")
+
+# 7. harjutus
