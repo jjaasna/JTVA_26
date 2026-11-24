@@ -1,42 +1,42 @@
 
-from math import * # oli valesti pandud seega panin ıigesti
+from math import * # oli valesti pandud seega panin √µigesti
 import math
 
 print("Ruudu karakteristikud")
 
-a = int(input("Sisesta ruudu k¸lje pikkus =>")) #panin int() kuna see tahab ,et ma sisestaks k¸lje pikkuse
+a = int(input("Sisesta ruudu k√ºlje pikkus =>")) #panin int() kuna see tahab ,et ma sisestaks k√ºlje pikkuse
 
-S = a ** 2 # panin vahed sisse ,et ıige oleks
+S = a ** 2 # panin vahed sisse ,et √µige oleks
 
 print("Ruudu pindala on", S)
 
-P = 4 * a # panin vahed sisse ,et ıige oleks
+P = 4 * a # panin vahed sisse ,et √µige oleks
 
-print("Ruudu ¸mbermııt", P) # '' oli pandud lıppu, vahetasin " vastu
+print("Ruudu √ºmberm√µ√µt", P) # '' oli pandud l√µppu, vahetasin " vastu
 
-di = a * math.sqrt(2) # j‰tsin vahed sisse 
+di = a * math.sqrt(2) # j√§tsin vahed sisse 
 
 print("Ruudu diagonaal", round(di,2)) # 
 
 print()
 
-print("Ristk¸liku karakteristikud")
+print("Ristk√ºliku karakteristikud")
 
-b = int(input("Sisesta ristk¸liku 1. k¸lje pikkus => "))
+b = int(input("Sisesta ristk√ºliku 1. k√ºlje pikkus => "))
 
-c = int(input("Sisesta ristk¸liku 2. k¸lje pikkus => "))
+c = int(input("Sisesta ristk√ºliku 2. k√ºlje pikkus => "))
 
 S = b * c
 
-print("Ristk¸liku pindala", S)
+print("Ristk√ºliku pindala", S)
 
 P =  2*(a+b)
 
-print("Ristk¸liku ¸mbermııt", P)
+print("Ristk√ºliku √ºmberm√µ√µt", P)
 
 di=math.sqrt(b*2+c*2)
 
-print("Ristk¸liku diagonaal", round(di))
+print("Ristk√ºliku diagonaal", round(di))
 
 print()
 
@@ -46,7 +46,7 @@ r = int(input("Sisesta ringi raadiusi pikkus => "))
 
 d = 2 * r
 
-print("Ringi l‰bimııt", d)
+print("Ringi l√§bim√µ√µt", d)
 
 S = pi * r *2
 

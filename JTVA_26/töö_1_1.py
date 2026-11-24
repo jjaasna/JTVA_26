@@ -77,9 +77,9 @@ print("(\\__/)")
 print("^^ "" ^^")
 
 # 9. harjutus
-a = int(input("esimene külg: ")
-b = int(input("teine külg: ")
-c = int(input("kolmas külg:")
+a = int(input("esimene külg: "))
+b = int(input("teine külg: "))
+c = int(input("kolmas külg:"))
 
 P = a + b + c
 
